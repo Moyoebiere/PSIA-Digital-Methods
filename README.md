@@ -95,6 +95,10 @@ The collected dataset was segmented into discrete timeframes, representing cruci
 
 ![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/9ffb18e5-fae9-49b7-8c45-4104d3c1555c)
 
+### Possible Implications?
+The prevalence of more articles about racial justice from 2010 to the present could indicate a significant shift in societal attention and media focus towards addressing issues of racial inequality. This increase may represent heightened awareness, amplified by social movements like Black Lives Matter, drawing attention to systemic racism, police brutality,
+and inequalities. Technological advancements and the digital age have facilitated broader dissemination of news, while triggering events and legislative changes have fueled discussions and media coverage.
+
 ### Thematic Analysis
 
 Employing qualitative research methods, a thematic analysis was conducted on the collected articles. This involved categorizing and examining the articles thematically to identify recurring patterns, shifts in language, and editorial perspectives across the various epochs. The aim was to uncover nuanced changes, overarching themes, and evolving discourse on racial justice issues. The process started from extracting the text data, this was done to remove any information that was irrelevant to the search or would be limiting to the expression of the selected code. 
@@ -114,3 +118,53 @@ The next step was tokenization was used to break down the articles or textual da
      stemmed_words = [stemmer.stem(word) for word in filtered_tokens]
      preprocessed_text = ' '.join(stemmed_words)
 
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/2131172c-f426-4f9e-80a1-74ff2d11bf36)
+
+
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/b6f04b19-a5bb-4818-a00c-a28646240198)
+
+### Word Cloud and Word frequencies
+Word frequency and word clouds were used to represent the results of thematic analysis due to their ability to visually highlight prominent words or terms within a corpus of text, providing a quick overview of the most frequently occurring terms. The results from the word frequency analysis might indicate the prevalence of certain terms like "protest," "rights," "racial," or "social" across different epochs. For instance, the analysis might reveal that terms related to activism or social issues were more frequently used in recent epochs compared to earlier periods. This narration could detail how certain words or themes evolved over time, reflecting changes in societal discourse, media focus, or perspectives on racial justice and social movements.
+
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/c10dbdc6-520e-4373-9934-8be0c3f2e5b6)
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/3bf3fc61-ff4f-4fb4-95cd-1cd128da494f)
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/fc7522fa-ab6a-4dd0-8bd6-23d91830248a)
+
+The prevalance of the words highlighted in the results of the word frequency analysis indicate their significance in this discourse and the possible overaching themes and topics associated with the selected time period. For instance, in the context of racial justice and social movements, the words  "rights," "equality," "protest," "racism," "justice," "black," among others. The high frequency of these terms suggests their centrality within discussions related to racial justice, indicating a focus on issues surrounding rights, equality, activism, and combating discrimination or racism.
+
+
+### Sentiment Analysis
+Utilizing sentiment analysis tools, the emotional tone and polarity of the articles for all the articles in the dataset was first quantified.  This provided an insight into the sentiments conveyed within the coverage, allowing for an assessment of the prevailing sentiment—whether positive, negative, or neutral—across the different temporal phases.
+The analysis was conducted using two softwares for the sake of validity and the results from both softwares were completely different. With python, the tonal shifts in media coverage was overall positive. 
+
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/51cb0081-f92e-4d5c-9317-64cbc5091551)
+
+### Here is a summary of the sentiment analysis output: 
+### Sentiment Polarity: 
+This score measures the positivity or negativity of the text. The value obtained is approximately 0.0549, indicating a slightly positive sentiment. The polarity scale typically ranges from -1 to 1, with values closer to 1 suggesting more positivity, closer to -1 indicating more negativity, and around 0 representing neutrality. Therefore, a value of 0.0549 suggests a slightly positive sentiment in the text.
+
+### Sentiment Subjectivity: 
+This score measures the level of subjectivity or opinion expressed in the text, ranging from 0 to 1. The subjectivity score obtained is approximately 0.3627, implying a moderate level of subjectivity or opinion in the text. A score of 0 indicates highly factual content, while 1 suggests highly subjective or opinionated content.
+
+### Sentiment Label:
+Based on the sentiment polarity, the analysis categorizes the sentiment as positive. This categorization is made by applying a threshold; for instance, if the polarity is greater than 0, it's labeled as positive. Conversely, if it's less than 0, it might be labeled as negative. Values around 0 could be considered neutral.
+
+To sum up, these results exhibit a slightly positive sentiment with a moderate level of subjectivity. It leans toward positivity, albeit not strongly, and contains some subjective elements. The possible implications of this results The implications of a slightly positive sentiment with a moderate level of subjectivity in text analysis can vary based on the context and purpose of the analysis:
+
+1. Audience Perception: A slightly positive sentiment might suggest that the audience or individuals expressing opinions in the text generally lean towards positivity regarding the subject matter. This could influence how the audience perceives or reacts to the topic. However, this positivity is not strong, so there might be aspects of neutrality or areas of improvement that could further enhance positivity.
+
+2. Potential Impact: The sentiment analysis, though slightly positive, could indicate that there is an opportunity for growth or improvement in the context being analyzed. There might be room for enhancing positivity, refining aspects that resonate positively with the audience, or addressing areas that might be causing a slight negative sentiment.
+
+3. Subjectivity and Opinions: The moderate level of subjectivity suggests that opinions or personal viewpoints are present in the text. Understanding this subjectivity could be valuable for understanding diverse perspectives and attitudes toward the subject matter. It might imply that different opinions or viewpoints exist and should be considered when making decisions or drawing conclusions.
+
+4. Communication Strategy: For businesses or organizations, a moderately subjective and slightly positive sentiment analysis might signal a need for a nuanced communication strategy. It could indicate the importance of acknowledging diverse opinions while focusing on areas that resonate positively with the audience.
+
+5. Feedback and Improvement: This analysis could serve as a starting point for further investigation or improvements. Identifying the specific aspects that contribute to positivity or subjectivity can guide actions to enhance positivity, refine messaging, or address concerns that contribute to a less than strongly positive sentiment.
+
+6. Decision-making: Understanding the sentiment and subjectivity levels can be crucial for decision-making processes. It can help in gauging public opinion, identifying areas for improvement, and making informed choices to align better with audience sentiments.
+
+
+
+With 'Plastack', the sentiment evaluation presented a result of 63.6% negative score. This result suggests that a significant portion of the text data reflects a critical, pessimistic, or unfavorable stance regarding racial justice issues. This might indicate persistent challenges, unresolved issues, or ongoing struggles within the context of the analyzed content.  The prevalence of negative sentiment across different epochs could imply that despite progress or changes in society, racial justice issues persist, maintaining a level of discontent, unresolved grievances, or systemic barriers that affect public discourse. It may also reflect the media's portrayal and coverage of racial justice issues. It could suggest a tendency in the media to focus more on challenges, conflicts, or negative aspects within these movements, potentially shaping public perceptions.
+
+A sentiment evaluation was performed on the articles within each epoch to gauge the overall sentiment conveyed in the reporting. This involved quantifying the sentiment scores to understand the tonal shifts in media coverage concerning racial justice. 
