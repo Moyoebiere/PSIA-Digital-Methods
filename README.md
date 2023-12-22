@@ -64,28 +64,18 @@ The emergence of the Black Lives Matter movement and its response to systemic ra
 
 The collected dataset was segmented into discrete timeframes, representing crucial moments in the progression of racial justice movements. These epochs included the Civil Rights Movement of the 1950s-1960s, the Post-Civil Rights Era of the 1970s-1980s, the Late 20th Century and Rise of Identity Politics spanning the 1990s to the early 2000s, and the Post-9/11 Era leading to the present day, particularly highlighting the emergence and impact of the Black Lives Matter movement. This was done inorder to undertand the narrative pertinent to each time period and observe the evolution of media language and editorial perspectives over the selected time periods where necessary. 
 
-import re
-
-# Your articles data
-articles = [
-    # Add your articles here...
-]
-
-# Define historical epochs with corresponding years
-epochs = {
-    "1950s-1960s (Civil Rights Movement)": range(1950, 1970),
-    "Post-Civil Rights Era (1970s-1980s)": range(1970, 1990),
-    "Late 20th Century - Rise of Identity Politics (1990s-early 2000s)": range(1990, 2005),
-    "Post-9/11 Era and Black Lives Matter Movement (2010s-present)": range(2010, 2023)  # Update end year
-}
-# Dictionary to store segmented articles
-segmented_articles = {epoch: [] for epoch in epochs}
-
-# Regular expression pattern to match years
-year_pattern = re.compile(r'\b(19\d{2}|20[01]\d)\b')
-
-# Segment articles into different epochs
-for article in articles:
+    import re
+    articles = [ 
+    ]
+    epochs = {
+      "1950s-1960s (Civil Rights Movement)": range(1950, 1970),
+      "Post-Civil Rights Era (1970s-1980s)": range(1970, 1990),
+      "Late 20th Century - Rise of Identity Politics (1990s-early 2000s)": range(1990, 2005),
+     "Post-9/11 Era and Black Lives Matter Movement (2010s-present)": range(2010, 2023)  # Update end year
+     }
+    segmented_articles = {epoch: [] for epoch in epochs}
+    year_pattern = re.compile(r'\b(19\d{2}|20[01]\d)\b')
+    for article in articles:
     # Extract the year from the article title or text
     match = re.search(year_pattern, article)
     if match:
@@ -95,9 +85,7 @@ for article in articles:
             if year in year_range:
                 segmented_articles[epoch].append(article)
                 break
-
-# Display the segmented articles for each historical epoch
-for epoch, articles in segmented_articles.items():
+    for epoch, articles in segmented_articles.items():
     print(f"Epoch: {epoch}")
     print(f"Number of Articles: {len(articles)}")
     print("Sample Articles:")
@@ -105,9 +93,24 @@ for epoch, articles in segmented_articles.items():
         print(article)
     print("=" * 50)
 
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/9ffb18e5-fae9-49b7-8c45-4104d3c1555c)
+
 ### Thematic Analysis
 
 Employing qualitative research methods, a thematic analysis was conducted on the collected articles. This involved categorizing and examining the articles thematically to identify recurring patterns, shifts in language, and editorial perspectives across the various epochs. The aim was to uncover nuanced changes, overarching themes, and evolving discourse on racial justice issues. The process started from extracting the text data, this was done to remove any information that was irrelevant to the search or would be limiting to the expression of the selected code. 
 
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/ca2a5f76-a0b7-476c-adb6-e70e130069c2)
 
+The next step was tokenization was used to break down the articles or textual data into individual words or phrases. Each token (word or phrase) formed the basis for further analysis, such as sentiment analysis, word frequency counting, or topic modeling. In addition to tokenization, stopwords were removed as a part of the preprocessing to focus on the more meaninful content of the text.  Stop words are common words (e.g., "and," "the," "is") that often appear frequently in text but usually don’t carry significant meaning or contribute much to the analysis. 
+
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/ebd3c0e7-75f9-4553-bbbc-9bca02372005)
+
+     sample_text = sample_text.lower()
+     sample_text = re.sub(r'[^a-zA-Z\s]', '', sample_text)
+     tokens = word_tokenize(sample_text)
+     stop_words = set(stopwords.words('english'))
+     filtered_tokens = [word for word in tokens if word not in stop_words]
+     stemmer = PorterStemmer()
+     stemmed_words = [stemmer.stem(word) for word in filtered_tokens]
+     preprocessed_text = ' '.join(stemmed_words)
 
