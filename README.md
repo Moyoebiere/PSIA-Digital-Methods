@@ -4,15 +4,15 @@
 This study delved into the transformation of narratives in The New York Times' coverage of racial justice and social movements across different epochs. Spanning from the Civil Rights Movement in the 1950s to contemporary issues, the research employed thematic, sentiment, and comparative analyses to discern language changes, perspectives, and emphasis within racial justice movements across distinct time periods. Utilizing a qualitative methodology, the project navigated through historical milestones, societal changes, and key events, aiming to illuminate the evolving nature of media portrayal and societal attention to racial justice issues.
 
 ## Background
-The study of media's portrayal of racial justice issues is situated within a broader context of societal evolution and the role of journalism in shaping public discourse. Over the decades, media outlets, including esteemed newspapers like The New York Times, have played a pivotal role in reflecting and sometimes influencing the dynamics of racial justice movements and their coverage. Understanding this trajectory involves examining historical and contemporary factors that have influenced media narratives around race and social justice.
+The study of media's portrayal of racial justice issues is situated within a broader context of societal evolution and the role of journalism in shaping public discourse (Entman, 1994). Over the decades, media outlets, including esteemed newspapers like The New York Times, have played a pivotal role in reflecting and sometimes influencing the dynamics of racial justice movements and their coverage. Understanding this trajectory involves examining historical and contemporary factors that have influenced media narratives around race and social justice (Schudson, 1989).
 
 ### Historical Context of Racial Justice Movements
 
-The 20th century witnessed significant milestones in the struggle for racial equality and civil rights. Events such as the Civil Rights Movement of the 1950s and 1960s, pivotal court cases like Brown v. Board of Education, and the emergence of leaders like Martin Luther King Jr. marked a period of increased activism and legislative changes. The media, especially newspapers, played a crucial role in documenting and disseminating information about these movements, contributing to societal awareness and discourse.
+The 20th century witnessed significant milestones in the struggle for racial equality and civil rights (Hachten, 1996). Events such as the Civil Rights Movement of the 1950s and 1960s, pivotal court cases like Brown v. Board of Education, and the emergence of leaders like Martin Luther King Jr. marked a period of increased activism and legislative changes. The media, especially newspapers, played a crucial role in documenting and disseminating information about these movements, contributing to societal awareness and discourse (Tuchman, 1978).
 
 ### Media's Role in Shaping Perceptions
 
-The manner in which racial justice issues were covered by the media during different periods has been subject to analysis and critique. Scholars and social commentators have noted shifts in language, perspectives, and editorial approaches within media coverage. Earlier eras often saw a more segregated and limited representation of diverse voices, while contemporary media aims for more inclusive narratives that encompass various viewpoints and experiences.
+The manner in which racial justice issues were covered by the media during different periods has been subject to analysis and critique (Entman, 1994). Earlier eras often saw a more segregated and limited representation of diverse voices, while contemporary media aims for more inclusive narratives that encompass various viewpoints and experiences.
 
 ### Challenges and Opportunities in Media Reporting
 
@@ -44,4 +44,70 @@ Utilizing the chosen search query, articles, editorials, op-eds, and reports wer
     for article in data['response']['docs']:
     print(article['headline']['main'])
    
-    ![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/e4e259af-0c8b-4f57-828d-1df10339e4dc)
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/e4e259af-0c8b-4f57-828d-1df10339e4dc)
+
+For a project focused on analyzing the evolution of racial justice narratives in media coverage, several key epochs hold substantial importance due to their significant impact on societal perceptions and media representations of racial justice. Here are some of the most crucial ones:
+
+### 1. Civil Rights Movement (1950s1960s): 
+This era witnessed monumental events and achievements in the fight for racial equality, leading to legislative changes and reshaping societal attitudes towards race relations.
+
+### 2. PostCivil Rights Era (1970s1980s): 
+Following the legislative victories of the Civil Rights Movement, this period saw continued activism, policy changes, and the rise of new challenges related to racial justice and equality.
+
+### 3. Late 20th Century  Rise of Identity Politics (1990searly 2000s): 
+This period marked by significant events and cultural shifts contributed to discussions around race, identity, and social justice, shaping narratives in media representation.
+
+### 4. Post 9/11 Era and Black Lives Matter Movement (2010- present): 
+The emergence of the Black Lives Matter movement and its response to systemic racism and police brutality became a defining moment in contemporary racial justice activism, significantly impacting media discourse and societal perceptions.
+
+### Time Period Segementation
+
+The collected dataset was segmented into discrete timeframes, representing crucial moments in the progression of racial justice movements. These epochs included the Civil Rights Movement of the 1950s-1960s, the Post-Civil Rights Era of the 1970s-1980s, the Late 20th Century and Rise of Identity Politics spanning the 1990s to the early 2000s, and the Post-9/11 Era leading to the present day, particularly highlighting the emergence and impact of the Black Lives Matter movement. This was done inorder to undertand the narrative pertinent to each time period and observe the evolution of media language and editorial perspectives over the selected time periods where necessary. 
+
+import re
+
+# Your articles data
+articles = [
+    # Add your articles here...
+]
+
+# Define historical epochs with corresponding years
+epochs = {
+    "1950s-1960s (Civil Rights Movement)": range(1950, 1970),
+    "Post-Civil Rights Era (1970s-1980s)": range(1970, 1990),
+    "Late 20th Century - Rise of Identity Politics (1990s-early 2000s)": range(1990, 2005),
+    "Post-9/11 Era and Black Lives Matter Movement (2010s-present)": range(2010, 2023)  # Update end year
+}
+# Dictionary to store segmented articles
+segmented_articles = {epoch: [] for epoch in epochs}
+
+# Regular expression pattern to match years
+year_pattern = re.compile(r'\b(19\d{2}|20[01]\d)\b')
+
+# Segment articles into different epochs
+for article in articles:
+    # Extract the year from the article title or text
+    match = re.search(year_pattern, article)
+    if match:
+        year = int(match.group())
+        # Categorize the article into the corresponding epoch
+        for epoch, year_range in epochs.items():
+            if year in year_range:
+                segmented_articles[epoch].append(article)
+                break
+
+# Display the segmented articles for each historical epoch
+for epoch, articles in segmented_articles.items():
+    print(f"Epoch: {epoch}")
+    print(f"Number of Articles: {len(articles)}")
+    print("Sample Articles:")
+    for article in articles[:3]:  # Displaying only 3 sample articles for each epoch
+        print(article)
+    print("=" * 50)
+
+### Thematic Analysis
+
+Employing qualitative research methods, a thematic analysis was conducted on the collected articles. This involved categorizing and examining the articles thematically to identify recurring patterns, shifts in language, and editorial perspectives across the various epochs. The aim was to uncover nuanced changes, overarching themes, and evolving discourse on racial justice issues. The process started from extracting the text data, this was done to remove any information that was irrelevant to the search or would be limiting to the expression of the selected code. 
+
+
+
