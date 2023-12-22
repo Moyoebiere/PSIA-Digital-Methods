@@ -253,10 +253,13 @@ The Thematic timeline represent the reocurring themes that were observed through
 3. Contemporary Political Debates
     Articles discussing political reforms, antitrust policies in the digital age, and racial profiling.
 
+## Language use and Editorial Perspective
 
- Evolution in language use: from explicit racial terms in earlier eras to more nuanced language and focus on systemic issues in recent times.
- Increasing attention to diverse voices and perspectives across ethnic, racial, gender, and social lines in modern articles.
- A shift in editorial focus from singular events to systemic issues and movements.
+1. **Evolution in Language Use:** The transition observed from explicit racial terms in earlier periods to more nuanced language in recent times signifies a substantial shift in how racial issues are articulated. This shift suggests a conscious move away from overtly direct racial language toward more refined and nuanced expressions. The change in language use possibly reflects an evolving understanding and sensitivity toward racial topics. The study likely captured this shift by analyzing the linguistic changes evident in the articles from various epochs.
+
+2. **Attention to Diverse Voices and Perspectives:** The increased attention to diverse voices across ethnic, racial, gender, and social lines in modern articles indicates a deliberate effort to present a more inclusive narrative. This suggests a departure from a singular, monolithic perspective to a more multifaceted approach that incorporates varied viewpoints. The study's findings might have shown a broader representation of perspectives, emphasizing inclusivity and diverse experiences within the discourse of racial justice.
+
+3. **Shift in Editorial Focus:** The transition in editorial focus from singular events to systemic issues and movements reflects a changing journalistic approach. The shift indicates a move beyond reporting individual occurrences or isolated incidents to a deeper exploration of underlying systemic issues. This likely portrays a journalistic emphasis on contextualizing events within broader social, economic, and political frameworks. The study might have demonstrated this by revealing a trend toward more comprehensive coverage of systemic challenges and societal movements related to racial justice.
 
 ## Comparative Analysis
 A comparative analysis was performed to juxtapose and contrast the coverage across the selected epochs. This comparative lens sought to elucidate changes in language, varying perspectives, and shifts in emphasis concerning specific issues within the realm of racial justice movements across different temporal contexts.
@@ -277,11 +280,76 @@ The articles collated were segmented into the selected time period and the word 
 
 ![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/d846c0e6-2117-4e72-85e8-3e633b917fe2)
 
+**Epoch: 1950-1960**
+- *'Negro'*: During this period, the term 'Negro' was commonly used as a descriptor for African Americans. It was a prevailing term used at the time to reference Black individuals, indicating the prevalent racial language of that era.
+- *'Rights'*: This term was recurrent, reflecting the discourse around civil rights movements, emphasizing struggles for equality and human rights.
+- *'Racism'*: The frequency of this term aligns with the societal and political focus on racial discrimination and segregation during this period.
+- *'Soviet', 'Party'*: The prominence of these terms suggests a global context, potentially indicating discussions related to the Cold War, communism, and international relations, where the Soviet Union was a significant player.
 
+**Epoch: 1970-1980**
+- *'Protest'*: Reflects a period marked by continued social activism and protest movements following the Civil Rights Era, suggesting ongoing advocacy and dissent.
+- *'Liberal', 'Churches'*: Reflects a broader societal shift and the involvement of various social institutions in addressing social issues.
+- *'Art'*: Indicates a cultural focus and likely the rise of artistic expression and representation during this time.
 
+**Epoch: 1990-2010**
+- *'Liberal', 'Social', 'Churches'*: These terms might represent the increasing dialogue around societal reforms, liberalism, and the role of religious institutions in social issues.
+- *'Jewish', 'Leaders'*: Signifies discussions around diverse leadership and possibly Jewish community involvement in social movements.
+
+**Epoch: 2010-present**
+- *'Racial', 'Black', 'Justice'*: Reflects the contemporary focus on racial justice, systemic racism, and the Black Lives Matter movement.
+- *'Social'*: Indicates a broader discourse that includes societal issues beyond just racial justice.
+- *'War'*: Likely associated with discussions on the 'war on drugs' or metaphorical usage in societal contexts.
+- *'Case', 'Floyd', 'King'*: Relates to specific incidents or figures like George Floyd, Rodney King, and Martin Luther King Jr., which garnered significant attention and media coverage in recent times.
+
+These word frequencies shed light on the prevalent themes, discourses, and societal concerns that were prominent in each epoch, offering insights into the evolving language and issues dominating discussions during those periods.
 
 ![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/39f375ce-14a1-46cd-9d90-ea8ccb8ccd71)
 
+### Sentiment Analysis
+A sentiment evaluation was performed on the articles within each epoch to gauge the overall sentiment conveyed in the reporting. This involved quantifying the sentiment scores to understand the tonal shifts in media coverage concerning racial justice. The text data in each epoch were extracted, tokenized and then all sotp words were removed.
 
-A sentiment evaluation was performed on the articles within each epoch to gauge the overall sentiment conveyed in the reporting. This involved quantifying the sentiment scores to understand the tonal shifts in media coverage concerning racial justice. The text data in each epoch were extracted, tokenized and then all sotp words were removed. 
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/bca82f07-ccef-4543-94bb-e920040c2f17)
+
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/0888b96f-7e3e-4114-8ac2-fafbc0e3d5b6)
+
+**Epoch: 1950-1960 (Sentiment Score: -0.9936 - Highly Negative)**
+During this period, the sentiment analysis reflects a highly negative score. This aligns with the historical context of intense racial tensions, segregation laws, and civil rights struggles prevalent in the United States. Notable events such as the Brown v. Board of Education case (1954) and the Montgomery Bus Boycott (1955-1956) were pivotal moments marked by racial inequality and social upheaval. The prevalent sentiment was likely influenced by societal strife, violence against civil rights activists, and systemic racism deeply ingrained in legislation and social norms. Real-life references include the relentless activism led by figures like Martin Luther King Jr., who fought against racial segregation and injustice, as well as instances of violent resistance against desegregation efforts.
+
+**Epoch: 1970-1980 (Sentiment Score: -0.516 - Negative)**
+This epoch shows a negative sentiment, albeit less intense than the 1950-1960 period. The sentiment likely reflects continued racial tensions, despite legislative victories during the Civil Rights Era. Real-life events during this period include the rise of the Black Power movement, continued protests against racial discrimination, and social struggles, all contributing to a persisting negative sentiment. Instances of societal resistance against desegregation efforts, clashes between law enforcement and protesters, and debates around affirmative action policies might have influenced this sentiment.
+
+**Epoch: 1990-2010 (Sentiment Score: 0.7579 - Highly Negative)**
+Unexpectedly, this epoch portrays a sentiment score suggesting positivity, but it is crucial to note that sentiment analysis can be influenced by various factors. In reality, this period witnessed discussions about systemic racism, racial profiling, and the rise of the term "mass incarceration." Real-life references might include the Los Angeles Riots (1992), where racial tensions flared following the Rodney King trial verdict. The sentiment might also reflect ongoing struggles against inequalities despite a veneer of progress.
+
+**Epoch: 2010-present (Sentiment Score: -0.9903 - Strongly Positive)**
+This contemporary epoch surprisingly exhibits a strongly positive sentiment score. This contrasts with widespread perceptions given the prevalence of social movements like Black Lives Matter, which emerged in response to police brutality and systemic racism. Possible references include high-profile cases like Trayvon Martin's shooting, sparking nationwide protests. The sentiment might suggest increased awareness, public outcry against racial injustice, and a shift toward more vocal advocacy for change, although it may also reflect growing polarizations in societal attitudes.
+
+### Popular Themes within each epoch
+**1950s-1960s (Civil Rights Movement):**
+- **Emphasis on Racial Shift:** Headlines like "DRIVE FOR RIGHTS IN NORTH IS URGED," "CONCERN GROWS OVER ‘WHITE BACKLASH’," and "LABOR IS WARNED ON NEGRO’S RIGHTS" emphasize the push for civil rights.
+- **Religious Critique:** Various religious leaders' perspectives, such as "JESUIT SEES END OF US RACISM" and "CATHOLICS SCORE RACISM IN AFRICA," highlight stances within religious circles against racism.
+- **National and International Condemnation:** Statements and critiques from global entities like the UN ("Excerpts of the Statements by UN Delegates on South Africa's Racial Policies") and national figures like Truman ("TRUMAN SOUNDS WARNING ON HATE") against racism suggest widespread condemnation of discriminatory practices.
+
+**Post-Civil Rights Era (1970s-1980s):**
+- **Diverse Concerns:** Headlines such as "Protest Over Arsons in Brooklyn," "World Council of Churches In The Shadow of Violence," and "Women Play Vital Roles in Governments of Scandinavia" highlight a broader spectrum of social issues beyond racial justice.
+- **Labor and Social Activism:** Articles discussing labor warnings ("Labor Is Warned") and reforms ("Liberal Reforms and Radical Visions") indicate a shift toward broader societal reforms.
+- **Identity Politics:** The emergence of issues like "California's Ethnic Studies Follies" and "Hillary Clinton Gets Important Labor Backing" suggests a transition toward identity-focused politics.
+
+**Late 20th Century - Rise of Identity Politics (1990s-early 2000s):**
+- **Cultural and Social Changes:** Topics like "Hollywood Invades the Classroom," "Hitler's Legacy," and "The Truth About Today's Anarchists" showcase a wider exploration of societal and cultural aspects beyond racial justice.
+- **Activism and Ideological Shifts:** The emergence of articles discussing "Understanding Black Lives Matter: A Primer," "The Racial Divide on Social Media," and "The Future of Black Leadership" indicates the rise of new activism and ideological transformations.
+
+**Post-9/11 Era and Black Lives Matter Movement (2010s-present):**
+- **Digital and Social Impact:** Articles like "The Floyd Protests Show That Twitter Is Real Life" and "Social Media Is Making Us Dumber" reflect on the influence of digital platforms on societal narratives.
+- **Modern Activism:** The prominence of topics like "The Injustice of This Moment Is Not an ‘Aberration’" and "Don't Believe the Lie That Voting Is All You Can Do" suggests contemporary activism emphasizing systemic change and voter engagement.
+- **Contemporary Perspectives:** The presence of articles discussing "The Truth About Today's Anarchists" and "Philanthropists Bench Women of Color" indicates a diverse range of viewpoints on societal issues.
+
+## Comparative Analysis of Language use and Editorial Perspective
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/f9735996-816f-49a8-9d73-97c41f86d953)
+
+## References
+- Entman, R. M. (1994). Representation and reality in the portrayal of blacks on network television news. Journalism Quarterly, 71(3), 509-520.
+- Schudson, M. (1989). The sociology of news production. Media, Culture & Society, 11(3), 263-282.
+- Hachten, W. A. (1996). The World News Prism: Changing Media of International Communication. Iowa State Press.
+- Tuchman, G. (1978). Making news: A study in the construction of reality. Free Press.
 
