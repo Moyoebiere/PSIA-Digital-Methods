@@ -126,12 +126,31 @@ The next step was tokenization was used to break down the articles or textual da
 ### Word Cloud and Word frequencies
 Word frequency and word clouds were used to represent the results of thematic analysis due to their ability to visually highlight prominent words or terms within a corpus of text, providing a quick overview of the most frequently occurring terms. The results from the word frequency analysis might indicate the prevalence of certain terms like "protest," "rights," "racial," or "social" across different epochs. For instance, the analysis might reveal that terms related to activism or social issues were more frequently used in recent epochs compared to earlier periods. This narration could detail how certain words or themes evolved over time, reflecting changes in societal discourse, media focus, or perspectives on racial justice and social movements.
 
-![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/c10dbdc6-520e-4373-9934-8be0c3f2e5b6)
 ![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/3bf3fc61-ff4f-4fb4-95cd-1cd128da494f)
+
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/c10dbdc6-520e-4373-9934-8be0c3f2e5b6)
+
 ![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/fc7522fa-ab6a-4dd0-8bd6-23d91830248a)
 
-The prevalance of the words highlighted in the results of the word frequency analysis indicate their significance in this discourse and the possible overaching themes and topics associated with the selected time period. For instance, in the context of racial justice and social movements, the words  "rights," "equality," "protest," "racism," "justice," "black," among others. The high frequency of these terms suggests their centrality within discussions related to racial justice, indicating a focus on issues surrounding rights, equality, activism, and combating discrimination or racism.
+The prevalance of the words highlighted in the results of the word frequency analysis indicate their significance in this discourse and the possible overaching themes and topics associated with the selected time period. For instance, in the context of racial justice and social movements, the words  "rights," "equality," "protest," "racism," "justice," "black," among others. The high frequency of these terms suggests their centrality within discussions related to racial justice, indicating a focus on issues surrounding rights, equality, activism, and combating discrimination or racism. 
 
+### Here's an interpretation of the most frequent terms:
+
+1. **'Black':** This term's high frequency indicates a substantial focus on issues, discussions, or events associated with the Black community. It suggests that the coverage or content might center significantly on Black individuals, their rights, experiences, and involvement within the context of racial justice movements.
+
+2. **'New':** The term 'new' could imply a focus on emerging developments, recent occurrences, or evolving aspects within the discourse of racial justice. It might indicate discussions about new movements, strategies, or perspectives emerging within the context of the topic.
+
+3. **'Racial':** The frequency of 'racial' signifies a specific emphasis on matters directly related to race, possibly encompassing racial discrimination, racial equality, or issues revolving around different racial groups and their experiences.
+
+4. **'Rights':** The mention of 'rights' multiple times suggests discussions around civil rights, human rights, or advocacy for equal rights within the context of racial justice and social movements. It might indicate a focus on legal or social rights and their relevance to the topic.
+
+5. **'US':** The term 'US' could refer to discussions related to the United States, implying a national context or focus on issues specific to the country concerning racial justice and social movements.
+
+6. **'Trump':** The frequency of 'Trump' suggests that discussions or events related to the former President, Donald Trump, may have been a significant part of the corpus. This might include his policies, statements, or impact on racial justice issues during his presidency.
+
+7. **'Social':** The term 'social' might indicate a focus on societal aspects, possibly addressing social structures, norms, or broader societal implications related to racial justice movements.
+
+8. **'King':** The mention of 'King' could relate to discussions about prominent figures like Martin Luther King Jr. or issues associated with leadership, civil rights, or historical perspectives within the racial justice discourse.
 
 ### Sentiment Analysis
 Utilizing sentiment analysis tools, the emotional tone and polarity of the articles for all the articles in the dataset was first quantified.  This provided an insight into the sentiments conveyed within the coverage, allowing for an assessment of the prevailing sentiment—whether positive, negative, or neutral—across the different temporal phases.
@@ -149,22 +168,120 @@ This score measures the level of subjectivity or opinion expressed in the text, 
 ### Sentiment Label:
 Based on the sentiment polarity, the analysis categorizes the sentiment as positive. This categorization is made by applying a threshold; for instance, if the polarity is greater than 0, it's labeled as positive. Conversely, if it's less than 0, it might be labeled as negative. Values around 0 could be considered neutral.
 
-To sum up, these results exhibit a slightly positive sentiment with a moderate level of subjectivity. It leans toward positivity, albeit not strongly, and contains some subjective elements. The possible implications of this results The implications of a slightly positive sentiment with a moderate level of subjectivity in text analysis can vary based on the context and purpose of the analysis:
+To sum up, these results exhibit a slightly positive sentiment with a moderate level of subjectivity. It leans toward positivity, albeit not strongly, and contains some subjective elements. The implications of a slightly positive sentiment with a moderate level of subjectivity in text analysis could be:
 
-1. Audience Perception: A slightly positive sentiment might suggest that the audience or individuals expressing opinions in the text generally lean towards positivity regarding the subject matter. This could influence how the audience perceives or reacts to the topic. However, this positivity is not strong, so there might be aspects of neutrality or areas of improvement that could further enhance positivity.
+1. Audience Perception: A slightly positive sentiment might suggest that the audience or individuals expressing opinions in the text generally lean towards positivity regarding the subject matter.  However, this positivity is not strong, so there might be aspects of neutrality or areas of improvement that could further enhance positivity.
+   
+2. Subjectivity and Opinions: The moderate level of subjectivity suggests that opinions or personal viewpoints are present in the text. Understanding this subjectivity could be valuable for understanding diverse perspectives and attitudes toward the subject matter. 
 
-2. Potential Impact: The sentiment analysis, though slightly positive, could indicate that there is an opportunity for growth or improvement in the context being analyzed. There might be room for enhancing positivity, refining aspects that resonate positively with the audience, or addressing areas that might be causing a slight negative sentiment.
+With **'Plastack'**, the sentiment evaluation presented a result of 63.6% negative score. This result suggests that a significant portion of the text data reflects a critical, pessimistic, or unfavorable stance regarding racial justice issues. This might indicate persistent challenges, unresolved issues, or ongoing struggles within the context of the analyzed content.  The prevalence of negative sentiment across different epochs could imply that despite progress or changes in society, racial justice issues persist, maintaining a level of discontent, unresolved grievances, or systemic barriers that affect public discourse. It may also reflect the media's portrayal and coverage of racial justice issues. It could suggest a tendency in the media to focus more on challenges, conflicts, or negative aspects within these movements, potentially shaping public perceptions.
 
-3. Subjectivity and Opinions: The moderate level of subjectivity suggests that opinions or personal viewpoints are present in the text. Understanding this subjectivity could be valuable for understanding diverse perspectives and attitudes toward the subject matter. It might imply that different opinions or viewpoints exist and should be considered when making decisions or drawing conclusions.
+## Thematic Timeline
+The Thematic timeline represent the reocurring themes that were observed through the different epochs selected for the purpose of this study. These themes were deduced from the collated data and articles represented in each epoch. 
 
-4. Communication Strategy: For businesses or organizations, a moderately subjective and slightly positive sentiment analysis might signal a need for a nuanced communication strategy. It could indicate the importance of acknowledging diverse opinions while focusing on areas that resonate positively with the audience.
+**1950s1960s (Civil Rights Movement):**
 
-5. Feedback and Improvement: This analysis could serve as a starting point for further investigation or improvements. Identifying the specific aspects that contribute to positivity or subjectivity can guide actions to enhance positivity, refine messaging, or address concerns that contribute to a less than strongly positive sentiment.
+1. Civil Rights Movement
+    Various articles highlight the struggle for civil rights in the US.
+    Emphasis on racial segregation, discrimination, and advocacy for equality.
+    Religious perspectives on racism and its impact on society.
 
-6. Decision-making: Understanding the sentiment and subjectivity levels can be crucial for decision-making processes. It can help in gauging public opinion, identifying areas for improvement, and making informed choices to align better with audience sentiments.
+2. Vietnam War
+    Debate and criticism around the merging of civil rights and peace movements.
+    The NAACP's concern about the potential harm to both causes.
+
+3. Labor Rights
+    Attention to the widening rift concerning the rights of African Americans in the labor force.
+
+4. Religious and Ethnic Perspectives
+    Denouncement of racism from religious figures, including Jews, Catholics, and Jesuits.
+    Criticism of clergy by a black evangelist.
+
+5. Editorial Opinions
+    Truman's strong stance against bigotry and racism.
+    Critique of the "white backlash" and its implications on civil rights.
+
+6. International Affairs
+    Criticism of South Africa's racial policies at the UN.
+    Commentary on Soviet party policies and the communist perspective on world capitalism.
+
+**PostCivil Rights Era (1970s1980s):**
+
+1. Social Justice and Reforms
+    Concerns about equality and reforms within the Jewish community.
+    Emphasis on liberal reforms, church reforms, and women's roles in Scandinavian governments.
+
+2. Political and Social Movements
+    Rightwing rallies supporting conservative figures like Maddox.
+    Protest against ecologists and the portrayal of them as "anticity.
+
+3. Identity and Culture
+    Focus on black art and black power in the 60s and 80s.
+    Exploration of the evolving faith and its connection to social conflict.
+
+ Late 20th Century  Rise of Identity Politics (1990s early 2000s):
+
+1. Cultural and Political Shifts
+    Exploration of Hollywood's influence in education and societal change.
+    Examination of movements like the Brat Pack and the impact of Hitler's legacy.
+
+2. Justice and Activism
+    Articles discussing black leadership, racial profiling, and the Black Lives Matter movement.
+    Insights into the changing perspectives on liberalism and justice.
+
+ **Post 9/11 Era and Black Lives Matter Movement (2010-present):**
+
+1. Social and Political Reckoning
+    Articles addressing systemic racism, activism, and the Black Lives Matter movement's impact.
+    Discussions about social media's role in shaping public opinion and protests.
+
+2. Challenges and Calls for Change
+    Debates around voting, racial justice, and the role of philanthropy in social change.
+    Examination of extremism, white supremacy, and their impact on society.
+
+3. Notable Figures and Movements
+    Coverage of influential figures like Martin Luther King Jr., Ilhan Omar, and events like the Women's March.
+    Reactions to specific incidents, such as Drew Brees' comments on kneeling during the anthem.
+
+1. Youth Activism and Teaching Units
+    Focus on youth activism, teaching about historical figures like Martin Luther King Jr., and addressing social issues in schools.
+
+2. Media Influence and Social Movements
+    Exploration of the impact of media, Twitter, and documentaries on shaping social justice movements.
+    Debates about political correctness and the evolution of language in social activism.
+
+3. Contemporary Political Debates
+    Articles discussing political reforms, antitrust policies in the digital age, and racial profiling.
+
+
+ Evolution in language use: from explicit racial terms in earlier eras to more nuanced language and focus on systemic issues in recent times.
+ Increasing attention to diverse voices and perspectives across ethnic, racial, gender, and social lines in modern articles.
+ A shift in editorial focus from singular events to systemic issues and movements.
+
+## Comparative Analysis
+A comparative analysis was performed to juxtapose and contrast the coverage across the selected epochs. This comparative lens sought to elucidate changes in language, varying perspectives, and shifts in emphasis concerning specific issues within the realm of racial justice movements across different temporal contexts.
+
+### Word frequency and Word Cloud
+The articles collated were segmented into the selected time period and the word frequency for each epoch was analysed. Results within each epoch were anlyzed to provied a comparative understanding of the narratives of racila justice and social movements acorss the selected time period. 
+
+
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/28e00ad1-b077-431a-b64c-ac9646326652)
+
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/cae370a4-4438-4af7-bbc4-f82133b7f3c3)
+
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/2aeb67d5-a592-4642-a6fa-4db73286439a)
+
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/e743f0fc-0052-4986-8604-c876d5e07d09)
+
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/e0097bbe-d28b-4d59-bf24-1694d0163092)
+
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/d846c0e6-2117-4e72-85e8-3e633b917fe2)
 
 
 
-With 'Plastack', the sentiment evaluation presented a result of 63.6% negative score. This result suggests that a significant portion of the text data reflects a critical, pessimistic, or unfavorable stance regarding racial justice issues. This might indicate persistent challenges, unresolved issues, or ongoing struggles within the context of the analyzed content.  The prevalence of negative sentiment across different epochs could imply that despite progress or changes in society, racial justice issues persist, maintaining a level of discontent, unresolved grievances, or systemic barriers that affect public discourse. It may also reflect the media's portrayal and coverage of racial justice issues. It could suggest a tendency in the media to focus more on challenges, conflicts, or negative aspects within these movements, potentially shaping public perceptions.
 
-A sentiment evaluation was performed on the articles within each epoch to gauge the overall sentiment conveyed in the reporting. This involved quantifying the sentiment scores to understand the tonal shifts in media coverage concerning racial justice. 
+![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/39f375ce-14a1-46cd-9d90-ea8ccb8ccd71)
+
+
+A sentiment evaluation was performed on the articles within each epoch to gauge the overall sentiment conveyed in the reporting. This involved quantifying the sentiment scores to understand the tonal shifts in media coverage concerning racial justice. The text data in each epoch were extracted, tokenized and then all sotp words were removed. 
+
