@@ -18,6 +18,9 @@ The manner in which racial justice issues were covered by the media during diffe
 
 Racial justice movements have historically been met with challenges in media representation, including biased reporting, lack of diversity in newsrooms, and the perpetuation of stereotypes. However, the digital age and advancements in technology have opened up new avenues for discussions, offering opportunities for a broader dissemination of information and diverse perspectives.
 
+## Research Question:  
+How have the language, editorial perspectives, and thematic representations within The New York Times' coverage of racial justice and social movements evolved from the 1950s to the present?
+
 ### Significance of the Study
 
 Understanding the historical evolution of media coverage concerning racial justice is critical in comprehending societal changes, journalistic norms, and public perception. Analyzing The New York Times' coverage across different epochs provides insights into how journalistic practices, language use, and editorial perspectives have evolved or remained static in reporting on racial justice issues.
@@ -25,5 +28,20 @@ Understanding the historical evolution of media coverage concerning racial justi
 ## Methodology
 
 ### Search Query
-The utilization of this specific search query was strategic in gathering articles that holistically represented the interplay between racial justice initiatives and the dynamics of various social movements, providing a rich dataset for the comprehensive analysis of evolving media narratives over time. Additionally, the selection of the New York times is because throughout its history, The New York Times has played a pivotal role in not only reporting on racial justice issues but also in shaping the narratives and public discourse surrounding these issues. The newspaper's coverage has reflected the changing dynamics of race and racism in America, from the struggles of the Civil Rights Movement to the present-day fight for racial equity and justice.
+The utilization of this specific search query 'racial justice and social movements' was strategic in gathering articles that holistically represented the interplay between racial justice initiatives and the dynamics of various social movements, providing a rich dataset for the comprehensive analysis of evolving media narratives over time. Additionally, the selection of the New York times is because throughout its history, The New York Times has played a pivotal role in not only reporting on racial justice issues but also in shaping the narratives and public discourse surrounding these issues. The newspaper's coverage has reflected the changing dynamics of race and racism in America, from the struggles of the Civil Rights Movement to the present-day fight for racial equity and justice.
 
+     import requests
+     api_key = 'AebWrSJPEPDRBCGE5mqxGuMssgADxGu0'
+     query = 'racial justice social movements'
+     url = f'https://api.nytimes.com/svc/search/v2/articlesearch.json?q={query}&api-key={api_key}'
+     response = requests.get(url)
+     data = response.json()
+    
+### Data Retrieval
+Utilizing the chosen search query, articles, editorials, op-eds, and reports were systematically gathered from The New York Times archives, ensuring a wide-ranging collection representing pivotal racial justice events and their connections to broader social movements.
+   
+    # Example: Extract and print headlines
+    for article in data['response']['docs']:
+    print(article['headline']['main'])
+   
+    ![image](https://github.com/Moyoebiere/PSIA-Digital-Methods/assets/154596338/e4e259af-0c8b-4f57-828d-1df10339e4dc)
